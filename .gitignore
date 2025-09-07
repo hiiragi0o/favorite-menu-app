@@ -1,0 +1,12 @@
+# Python
+backend/myvenv/
+__pycache__/
+*.pyc
+
+# Node.js
+frontend/node_modules/
+frontend/build/
+
+# 共通
+.env
+.DS_Store
