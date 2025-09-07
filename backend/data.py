@@ -1,6 +1,10 @@
 from flask import Flask, Response, json
+from flask_cors import CORS
 
 app = Flask(__name__)
+
+# クロスオリジンリクエストを許可
+CORS((app))
 
 # 日本語を返すAPI
 @app.route('/api/data', methods=['GET'])
